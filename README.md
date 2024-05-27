@@ -4,7 +4,7 @@
 
 Currency Converter is a web application that allows users to easily convert between different currencies. It provides up-to-date exchange rates using the [FX Rates API](https://fxratesapi.io/).
 
-![CurrencyConverter](https://github.com/ThatSINEWAVE/CurrencyConverter/assets/133239148/965b4ed2-51fe-4aea-b167-1e1b975d0f5a)
+![CurrencyConverter](https://github.com/ThatSINEWAVE/CurrencyConverter/assets/133239148/62eca94b-6b8d-41d5-a26b-0faae46aa410)
 
 </div>
 
