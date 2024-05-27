@@ -1,0 +1,105 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #1e1f22;
+}
+
+.container {
+	text-align: center;
+}
+
+h1 {
+	font-size: 36px;
+	color: #f9f9f9;
+}
+
+p {
+	font-size: 18px;
+	color: #f9f9f9;
+}
+
+.converter {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.input-group {
+	margin: 10px 0;
+}
+
+input[type="text"],
+select {
+	width: 150px;
+	padding: 10px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	background-color: #f9f9f9;
+	color: #333;
+	outline: none;
+	transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+select:focus {
+	background-color: #e8e8e8;
+}
+
+input[type="text"]::placeholder {
+	color: #999;
+}
+
+select {
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23333"><path d="M12 15l-6-6h12z"/></svg>');
+	background-repeat: no-repeat;
+	background-position: right 10px top 50%;
+	background-size: 18px;
+}
+
+.swap-icon {
+	font-size: 24px;
+	color: #f9f9f9;
+	cursor: pointer;
+	margin: 0px 0;
+	transition: transform 0.3s ease;
+}
+
+.swap-icon:hover {
+	transform: rotate(180deg);
+}
+
+#exchangeRate,
+#lastUpdated {
+	margin-top: 20px;
+	font-size: 16px;
+	color: #f9f9f9;
+	max-width: 350px;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+	background: transparent;
+}
+
+footer a {
+	margin: 0 15px;
+	display: inline-block;
+	font-size: 20px;
+	color: #f9f9f9;
+}
